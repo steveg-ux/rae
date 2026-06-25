@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flora</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="app">
+    <section class="hero">
+      <p class="eyebrow">Flora v0.1</p>
+      <h1>Your calm daily planning assistant</h1>
+      <p class="intro">
+        Flora helps you capture what matters today, choose one priority, and take the next small step.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Today</h2>
+      <form id="task-form">
+        <input id="task-input" type="text" placeholder="Add something you want to do..." />
+        <button type="submit">Add</button>
+      </form>
+      <ul id="task-list"></ul>
+    </section>
+
+    <section class="card soft">
+      <h2>Flora says</h2>
+      <p id="flora-message">Start with one small thing. You do not need to fix the whole day at once.</p>
+      <button id="new-message">Give me a nudge</button>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
